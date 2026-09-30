@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiencia | Mateo y Sebastián</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f8;
+            color: #263238;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #7042a0;
+            color: white;
+            text-align: center;
+            padding: 45px 20px;
+        }
+
+        nav {
+            background-color: #4e2c74;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #e9d5ff;
+        }
+
+        nav a.activo {
+            color: #e9d5ff;
+            border-bottom: 2px solid #e9d5ff;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 35px auto;
+            padding: 20px;
+        }
+
+        .perfil {
+            background-color: white;
+            padding: 30px;
+            margin-bottom: 30px;
+            border-radius: 12px;
+            box-shadow: 0 3px 12px #00000018;
+        }
+
+        h2 {
+            color: #7042a0;
+            margin-bottom: 15px;
+        }
+
+        h3 {
+            margin-top: 15px;
+        }
+
+        ul {
+            margin-left: 25px;
+        }
+
+        .proyecto {
+            background-color: #faf7fd;
+            border-left: 5px solid #7042a0;
+            padding: 15px;
+            margin: 15px 0;
+            transition: transform 0.2s, background-color 0.2s;
+        }
+
+        .proyecto:hover {
+            transform: translateX(6px);
+            background-color: #f1e7fa;
+        }
+
+        .etiquetas {
+            list-style: none;
+            margin-left: 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .etiquetas li {
+            background-color: #e9d5ff;
+            color: #4e2c74;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        footer {
+            background-color: #4e2c74;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 28px;
+            }
+
+            nav a {
+                display: block;
+                margin: 8px 0;
+            }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            .proyecto {
+                transition: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Experiencia y Proyectos</h1>
+    <p>Proyectos académicos y habilidades desarrolladas</p>
+</header>
+
+<nav>
+    <a href="index.html">Inicio</a>
+    <a href="educacion.html">Educación</a>
+    <a href="experiencia.html" class="activo">Experiencia</a>
+</nav>
+
+<main>
+
+    <section class="perfil">
+
+        <h2>Mateo Bedoya Castillo</h2>
+
+        <div class="proyecto">
+            <h3>Desarrollo web</h3>
+            <p>
+                Creación de páginas web utilizando HTML y CSS,
+                aplicando estructuras organizadas y navegación
+                entre diferentes páginas.
+            </p>
+        </div>
+
+        <div class="proyecto">
+            <h3>Proyecto de software</h3>
+            <p>
+                Participación en proyectos académicos relacionados
+                con el análisis, diseño y desarrollo de sistemas
+                informáticos.
+            </p>
+        </div>
+
+        <div class="proyecto">
+            <h3>Uso de Git</h3>
+            <p>
+                Manejo de repositorios, ramas, commits y fusiones
+                para organizar el desarrollo de proyectos.
+            </p>
+        </div>
+
+        <h3>Habilidades</h3>
+
+        <ul>
+            <li>Programación</li>
+            <li>Trabajo en equipo</li>
+            <li>Resolución de problemas</li>
+            <li>Desarrollo web</li>
+            <li>Aprendizaje autónomo</li>
+        </ul>
+
+    </section>
+
+    <section class="perfil">
+
+        <h2>Sebastián García</h2>
+
+        <div class="proyecto">
+            <h3>Desarrollo web</h3>
+            <p>
+                Participación en la creación de páginas web,
+                trabajando con HTML, CSS y diferentes elementos
+                de diseño y navegación.
+            </p>
+        </div>
+
+        <div class="proyecto">
+            <h3>Proyectos académicos</h3>
+            <p>
+                Desarrollo de actividades académicas relacionadas
+                con programación, tecnología y desarrollo de
+                soluciones informáticas.
+            </p>
+        </div>
+
+        <div class="proyecto">
+            <h3>Trabajo colaborativo</h3>
+            <p>
+                Participación en trabajos grupales donde se aplican
+                herramientas tecnológicas y metodologías para
+                organizar el desarrollo de proyectos.
+            </p>
+        </div>
+
+        <h3>Habilidades</h3>
+
+        <ul>
+            <li>Programación</li>
+            <li>Trabajo en equipo</li>
+            <li>Creatividad</li>
+            <li>Resolución de problemas</li>
+            <li>Aprendizaje de nuevas tecnologías</li>
+        </ul>
+
+    </section>
+
+    <section class="perfil">
+
+        <h2>Tecnologías utilizadas</h2>
+
+        <ul class="etiquetas">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Git</li>
+            <li>GitLab</li>
+            <li>Trabajo en equipo</li>
+        </ul>
+
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2026 Mateo Bedoya Castillo y Sebastián García</p>
+</footer>
+
+</body>
+</html>

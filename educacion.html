@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educación | Mateo y Sebastián</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f8;
+            color: #263238;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #176b55;
+            color: white;
+            text-align: center;
+            padding: 45px 20px;
+        }
+
+        nav {
+            background-color: #104b3d;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #a7f3d0;
+        }
+
+        nav a.activo {
+            color: #a7f3d0;
+            border-bottom: 2px solid #a7f3d0;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 35px auto;
+            padding: 20px;
+        }
+
+        .perfil {
+            background-color: white;
+            padding: 30px;
+            margin-bottom: 30px;
+            border-radius: 12px;
+            box-shadow: 0 3px 12px #00000018;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .perfil:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 20px #00000030;
+        }
+
+        h2 {
+            color: #176b55;
+            margin-bottom: 15px;
+        }
+
+        h3 {
+            margin-top: 15px;
+        }
+
+        ul {
+            margin-left: 25px;
+        }
+
+        .etiquetas {
+            list-style: none;
+            margin-left: 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .etiquetas li {
+            background-color: #d1fae5;
+            color: #104b3d;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        footer {
+            background-color: #104b3d;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 28px;
+            }
+
+            nav a {
+                display: block;
+                margin: 8px 0;
+            }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            .perfil {
+                transition: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Educación</h1>
+    <p>Formación académica de nuestros perfiles</p>
+</header>
+
+<nav>
+    <a href="index.html">Inicio</a>
+    <a href="educacion.html" class="activo">Educación</a>
+    <a href="experiencia.html">Experiencia</a>
+</nav>
+
+<main>
+
+    <section class="perfil">
+        <h2>Mateo Bedoya Castillo</h2>
+
+        <h3>Formación académica</h3>
+
+        <p>
+            Actualmente estudio en la Universidad de Manizales,
+            donde desarrollo conocimientos relacionados con ingeniería,
+            programación y desarrollo de software.
+        </p>
+
+        <h3>Conocimientos</h3>
+
+        <ul>
+            <li>Fundamentos de programación</li>
+            <li>Desarrollo web</li>
+            <li>HTML y CSS</li>
+            <li>Git y GitLab</li>
+            <li>Bases de datos</li>
+        </ul>
+
+        <h3>Metas académicas</h3>
+
+        <p>
+            Continuar aprendiendo nuevos lenguajes y herramientas
+            que permitan fortalecer mi formación profesional.
+        </p>
+    </section>
+
+    <section class="perfil">
+        <h2>Sebastián García</h2>
+
+        <h3>Formación académica</h3>
+
+        <p>
+            Sebastián García se encuentra desarrollando su formación
+            académica en el área de tecnología, fortaleciendo sus
+            conocimientos de programación y desarrollo de software.
+        </p>
+
+        <h3>Conocimientos</h3>
+
+        <ul>
+            <li>Programación</li>
+            <li>Desarrollo web</li>
+            <li>HTML y CSS</li>
+            <li>Control de versiones</li>
+            <li>Herramientas tecnológicas</li>
+        </ul>
+
+        <h3>Metas académicas</h3>
+
+        <p>
+            Seguir adquiriendo conocimientos y mejorar sus habilidades
+            para aplicarlas en futuros proyectos tecnológicos.
+        </p>
+    </section>
+
+    <section class="perfil">
+        <h2>Herramientas que utilizamos</h2>
+
+        <ul class="etiquetas">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Git</li>
+            <li>GitLab</li>
+            <li>VS Code</li>
+        </ul>
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2026 Mateo Bedoya Castillo y Sebastián García</p>
+</footer>
+
+</body>
+</html>

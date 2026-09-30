@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfiles | Mateo y Sebastián</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f8;
+            color: #263238;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #17365d;
+            color: white;
+            text-align: center;
+            padding: 45px 20px;
+        }
+
+        header h1 {
+            font-size: 38px;
+            margin-bottom: 10px;
+        }
+
+        nav {
+            background-color: #102844;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #80d8ff;
+        }
+
+        nav a.activo {
+            color: #80d8ff;
+            border-bottom: 2px solid #80d8ff;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 35px auto;
+            padding: 20px;
+        }
+
+        .bienvenida {
+            background-color: #e3f2fd;
+            border-left: 6px solid #17365d;
+            padding: 25px;
+            margin-bottom: 30px;
+            border-radius: 8px;
+        }
+
+        .bienvenida h2 {
+            color: #17365d;
+            margin-bottom: 10px;
+        }
+
+        .perfil {
+            background-color: white;
+            padding: 30px;
+            margin-bottom: 30px;
+            border-radius: 12px;
+            box-shadow: 0 3px 12px #00000018;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .perfil:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 20px #00000030;
+        }
+
+        .perfil h2 {
+            color: #17365d;
+            margin-bottom: 15px;
+        }
+
+        .perfil h3 {
+            margin-top: 15px;
+        }
+
+        .perfil ul {
+            margin-left: 25px;
+        }
+
+        footer {
+            background-color: #102844;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 28px;
+            }
+
+            nav a {
+                display: block;
+                margin: 8px 0;
+            }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            .perfil {
+                transition: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Perfiles Personales</h1>
+    <p>Mateo Bedoya Castillo y Sebastián García</p>
+</header>
+
+<nav>
+    <a href="index.html" class="activo">Inicio</a>
+    <a href="educacion.html">Educación</a>
+    <a href="experiencia.html">Experiencia</a>
+</nav>
+
+<main>
+
+    <section class="bienvenida">
+        <h2>Bienvenido</h2>
+        <p>
+            Este sitio reúne los perfiles de Mateo y Sebastián: su formación,
+            intereses y experiencia. Usa el menú para explorar cada sección.
+        </p>
+    </section>
+
+    <section class="perfil">
+        <h2>Mateo Bedoya Castillo</h2>
+
+        <h3>Sobre mí</h3>
+        <p>
+            Mi nombre es Mateo Bedoya Castillo. Soy estudiante interesado
+            en la tecnología, la programación y el desarrollo de software.
+            Me gusta aprender nuevas herramientas y mejorar mis conocimientos
+            mediante proyectos académicos y personales.
+        </p>
+
+        <h3>Mis intereses</h3>
+        <ul>
+            <li>Programación</li>
+            <li>Desarrollo de software</li>
+            <li>Desarrollo web</li>
+            <li>Tecnología</li>
+            <li>Trabajo en equipo</li>
+        </ul>
+
+        <h3>Objetivo</h3>
+        <p>
+            Continuar fortaleciendo mis conocimientos tecnológicos y adquirir
+            experiencia en el desarrollo de soluciones informáticas.
+        </p>
+    </section>
+
+    <section class="perfil">
+        <h2>Sebastián García</h2>
+
+        <h3>Sobre mí</h3>
+        <p>
+            Mi nombre es Sebastián García. Soy estudiante interesado en la
+            tecnología y en el aprendizaje de nuevas herramientas relacionadas
+            con la programación y el desarrollo de software.
+        </p>
+
+        <h3>Mis intereses</h3>
+        <ul>
+            <li>Programación</li>
+            <li>Tecnología</li>
+            <li>Desarrollo web</li>
+            <li>Aprendizaje de nuevas herramientas</li>
+            <li>Trabajo colaborativo</li>
+        </ul>
+
+        <h3>Objetivo</h3>
+        <p>
+            Seguir desarrollando mis habilidades y adquirir nuevos
+            conocimientos que permitan crecer profesionalmente en el
+            área de tecnología.
+        </p>
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2026 Mateo Bedoya Castillo y Sebastián García</p>
+</footer>
+
+</body>
+</html>
